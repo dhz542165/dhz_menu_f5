@@ -110,7 +110,6 @@ Citizen.CreateThread(function()
     RMenu.Add('inventory', 'object5', RageUI.CreateSubMenu(RMenu:Get('inventory', 'main'), "Props", "Appuyer sur [~b~E~w~] pour poser les objet"))
     RMenu.Add('inventory', 'object6', RageUI.CreateSubMenu(RMenu:Get('inventory', 'main'), "Props", "Appuyer sur [~b~E~w~] pour poser les objet"))
     RMenu.Add('inventory', 'object7', RageUI.CreateSubMenu(RMenu:Get('inventory', 'main'), "Props", "Appuyer sur [~b~E~w~] pour poser les objet"))
-    RMenu.Add('inventory', 'Extasy', RageUI.CreateSubMenu(RMenu:Get('inventory', 'main'), "Props", "Appuyer sur [~b~E~w~] pour poser les objet"))
     RMenu.Add('inventory', 'objectlist', RageUI.CreateSubMenu(RMenu:Get('inventory', 'object'), "Suppression d'objets", "~b~Suppression d'objets"))
 
     RMenu.Add('inventory', 'divers', RageUI.CreateSubMenu(RMenu:Get('inventory', 'main'), "Divers", "~b~Divers"))
