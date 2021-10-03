@@ -1,4 +1,4 @@
-# Menu intéraction en ContextUI
+# Menu intéraction en RageUI
 Pour le start ensure dhz_menu_f5 dans le server cfg
 
 # Config simple
