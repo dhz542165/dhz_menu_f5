@@ -2051,7 +2051,7 @@ function FonctionMenuF5Ouvert()
 
                 RageUI.IsVisible(RMenu:Get('inventory', 'portefeuille_money'), true, true, true, function()
 
-                    RageUI.ButtonWithStyle("~b~Donner~s~ de l'argent liquide", nil, {RightBadge = RageUI.BadgeStyle.Lock}, true, function(Hovered,Active,Selected)
+                    RageUI.ButtonWithStyle("~b~Donner~s~ de l'argent liquide", nil, {RightBadge = RageUI.BadgeStyle.Tick}, true, function(Hovered,Active,Selected)
                         if Selected then
                             local black, quantity = CheckQuantity(KeyboardInput("Somme d'argent que vous voulez donner", '', '', 1000))
                             if black then
